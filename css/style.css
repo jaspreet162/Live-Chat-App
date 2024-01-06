@@ -1,0 +1,97 @@
+body {
+    height: 100vh;
+    background-color:#000000;
+}
+.logo {
+    display: block;
+    margin: auto;
+    height: 60px;
+    width: 60px;
+    
+    margin-top: 16px;
+}
+h1{
+    font-size: 30px;
+    font-family: cursive;
+    color: #1acbe9;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 6px;
+}
+
+
+.container {
+    max-width: 100%;
+    overflow-y: auto;
+    margin: auto;
+    height: 75vh;
+    margin-bottom: 23px;
+}
+
+.message {
+
+    width: 24%;
+    margin: 17px 12px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#send-container {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    max-width: 2060px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#messageinp {
+    width: 84%;
+    
+    border-radius: 6px;
+    height: 34px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.left {
+    float: left;
+    clear: both;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: #75fd92;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 41px;
+    width: 12%;
+    margin: 0 4px;
+    background-color: #1acbe9;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.right {
+    float: right;
+    clear: both;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: #d8b53a
+}
+@media (max-width:550px) and (min-width:375px){
+    .btn{
+        width: 15%;
+    }
+}
+@media (max-width:444px) and (min-width:375px){
+    .btn{
+        width: 18%;
+    }
+}
